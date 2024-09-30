@@ -2,7 +2,12 @@
 module.exports = {
   content: ["./main/index.html"],
   theme: {
-    extend: {},
+    extend: {
+      animation:{
+      '0% , 100%':{},
+
+      }
+    },
   },
   plugins: [],
 }
